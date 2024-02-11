@@ -41,6 +41,14 @@ fun main() {
     contaAlex.saca(500.0)
     println(contaFran.saldo)
 
+    println("Transferência da conta da Fran para o Alex")
+    if (contaFran.trasnfere(300.0, contaAlex)) {
+        println("tranferência sucedida")
+    } else {
+        println("falha na tranferência")
+    }
+    println(contaAlex.saldo)
+    println(contaFran.saldo)
 
 }
 
@@ -58,6 +66,15 @@ class Conta {
         if (this.saldo >= valor) {
             this.saldo -= valor
         }
+    }
+
+    fun trasnfere(valor: Double, destino: Conta): Boolean {
+        if (saldo >= valor) {
+            saldo -= valor
+            destino.saldo += valor
+            return true
+        }
+        return false
     }
 }
 
@@ -85,7 +102,7 @@ fun testaCopiasEReferencias() {
 
 fun testaLacos() {
     var i = 0
-    while (i < 5){
+    while (i < 5) {
         val titular = "Alex $i"
         val numeroConta = 1000 + i
         var saldo = i + 10.0
