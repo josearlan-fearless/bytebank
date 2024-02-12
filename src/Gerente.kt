@@ -9,9 +9,12 @@ class Gerente(
     salario
 ) {
 
-    //    fun bonificacao(): Double {
-//        return salario * 0.2
-//    }
+    //Aqui foi mantida a implementação original da property herdada.
+    override val bonificacao: Double
+        get() {
+            return salario * 0.2
+        }
+
     fun autentica(senha: Int): Boolean {
         if (this.senha == senha) {
             return true
