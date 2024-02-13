@@ -1,17 +1,17 @@
-class Conta(var titular: String, val numero: Int) {
+open class Conta(var titular: String, val numero: Int) {
     var saldo = 0.0
         private set
 
 //    constructor(titular: String, numero: Int, saldo: Double) : this(titular, numero){
 //        this.saldo = saldo
-//    }
+//    } //construtor secundário, fazendo o overload de métodos, chamando o primário pelo this()
 
     fun deposita(valor: Double) {
         if (valor > 0)
             this.saldo += valor
     }
 
-    fun saca(valor: Double) {
+    open fun saca(valor: Double) {
         if (this.saldo >= valor) {
             this.saldo -= valor
         }
