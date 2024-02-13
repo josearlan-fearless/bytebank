@@ -5,5 +5,7 @@ open class Funcionario(
 ) {
 
     //Utilizando agora o super, tirei o get() para ficar um código mais limpo
-    open val bonificacao: Double = salario * 0.1
+    open val bonificacao: Double get() {
+        return salario * 0.1
+    }
 }

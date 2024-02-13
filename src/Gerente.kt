@@ -10,7 +10,9 @@ class Gerente(
 ) {
 
     //Agora fazendo a chamado da property da classe mãe com o super
-    override val bonificacao: Double get() = super.bonificacao + salario
+    override val bonificacao: Double get() {
+        return super.bonificacao + salario
+    }
 
 
     fun autentica(senha: Int): Boolean {
