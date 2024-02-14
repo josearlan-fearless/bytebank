@@ -11,7 +11,7 @@ class Gerente(
 
     //Agora fazendo a chamado da property da classe mãe com o super
     override val bonificacao: Double get() {
-        return super.bonificacao + salario
+        return salario
     }
 
 
