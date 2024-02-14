@@ -6,10 +6,10 @@ fun testaCopiasEReferencias() {
     println("numeroX $numeroX")
     println("numeroY $numeroY")
 
-    val contaJoao = Conta("João", 1002)
+    val contaJoao = ContaCorrente("João", 1002)
     contaJoao.titular = "João"
 //    var contaMaria = contaJoao //Aqui tem atribuição por referência
-    var contaMaria = Conta("Maria", 1003)  //Aqui é criada uma nova instância de objeto
+    var contaMaria = ContaPoupanca("Maria", 1003)  //Aqui é criada uma nova instância de objeto
     contaMaria.titular = "Maria"
     contaJoao.titular = "João"
 

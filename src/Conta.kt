@@ -1,6 +1,6 @@
-open class Conta(var titular: String, val numero: Int) {
+abstract class Conta(var titular: String, val numero: Int) {
     var saldo = 0.0
-        private set
+        protected set
 
 //    constructor(titular: String, numero: Int, saldo: Double) : this(titular, numero){
 //        this.saldo = saldo
@@ -11,11 +11,7 @@ open class Conta(var titular: String, val numero: Int) {
             this.saldo += valor
     }
 
-    open fun saca(valor: Double) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor
-        }
-    }
+    abstract fun saca(valor: Double)
 
     fun trasnfere(valor: Double, destino: Conta): Boolean {
         if (saldo >= valor) {

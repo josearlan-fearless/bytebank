@@ -2,23 +2,14 @@ class Gerente(
     nome: String,
     cpf: String,
     salario: Double,
-    val senha: Int
-) : Funcionario(
+    senha: Int,
+) : FuncionarioAdmin(
     nome,
     cpf,
-    salario
+    salario,
+    senha
 ) {
-
-    //Agora fazendo a chamado da property da classe mãe com o super
     override val bonificacao: Double get() {
         return salario
-    }
-
-
-    fun autentica(senha: Int): Boolean {
-        if (this.senha == senha) {
-            return true
-        }
-        return false
     }
 }
