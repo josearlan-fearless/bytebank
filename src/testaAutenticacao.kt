@@ -14,7 +14,15 @@ fun testaAutenticacao() {
         plr = 200.0
     )
 
+    val cliente = Cliente(
+        nome = "Gui",
+        cpf = "333.333.333-33",
+        1234
+    )
+
     val sistemaInterno = SistemaInterno()
     sistemaInterno.entra(gerente, 1000)
     sistemaInterno.entra(diretora, 2000)
+    sistemaInterno.entra(cliente, 1234)
+
 }
