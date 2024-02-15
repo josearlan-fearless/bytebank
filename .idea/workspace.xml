@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249dd60b-089e-49e9-839e-a08565b911ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Autenticavel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/testaAutenticacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaInterno.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
