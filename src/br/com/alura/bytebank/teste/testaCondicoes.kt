@@ -1,4 +1,4 @@
-package teste
+package br.com.alura.bytebank.teste
 
 fun testaCondicoes(saldo: Double) {
     //O kotlin pede o tipo explícito de variáveis em parametros

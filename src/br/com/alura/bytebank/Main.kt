@@ -1,5 +1,6 @@
-import modelo.Cliente
-import novomodelo.Cliente as NovoCliente
+package br.com.alura.bytebank
+
+import br.com.alura.bytebank.modelo.Cliente
 import java.lang.String as StringJava
 
 fun main() {
@@ -7,5 +8,4 @@ fun main() {
     val palavraJava: StringJava = StringJava("")
 
     val cliente = Cliente("Alex", "111.111.111-11", 1234)
-    val clienteNovo = NovoCliente()
 }
