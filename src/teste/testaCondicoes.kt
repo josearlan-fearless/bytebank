@@ -1,3 +1,5 @@
+package teste
+
 fun testaCondicoes(saldo: Double) {
     //O kotlin pede o tipo explícito de variáveis em parametros
     if (saldo > 0.0) {

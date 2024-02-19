@@ -1,3 +1,8 @@
+package teste
+
+import modelo.ContaCorrente
+import modelo.ContaPoupanca
+
 fun testaComportamentosConta() {
     println("Bem vindo ao Bytebank")
     val contaAlex = ContaCorrente(numero = 1000, titular = "Alex")
