@@ -6,11 +6,11 @@ import br.com.alura.bytebank.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
     println("Bem vindo ao Bytebank")
-    val alex = Cliente("Alex", "111.111.111-11", 1234)
+    val alex = Cliente("Alex", "111.111.111-11", senha = 1234)
     val contaAlex = ContaCorrente(numero = 1000, titular = alex)
     contaAlex.deposita(200.0)
 
-    val fran = Cliente("Fran", "222.222.222-22", 4321)
+    val fran = Cliente("Fran", "222.222.222-22", senha = 4321)
     val contaFran = ContaPoupanca(fran, 1001)
     contaFran.deposita(300.0)
 

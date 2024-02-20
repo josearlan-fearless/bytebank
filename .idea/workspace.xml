@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249dd60b-089e-49e9-839e-a08565b911ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaAutenticacao.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" afterDir="false" />
@@ -63,6 +61,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/br/com/alura/bytebank" />
       <recent name="$PROJECT_DIR$/src/teste" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="br.com.alura.bytebank.modelo" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="modelo" />

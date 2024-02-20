@@ -12,15 +12,15 @@ fun testaCopiasEReferencias() {
     println("numeroX $numeroX")
     println("numeroY $numeroY")
 
-    val joao = Cliente("João", "333.333.333-33", 5678)
+    val joao = Cliente(nome = "João", cpf = "333.333.333-33", senha = 5678)
     val contaJoao = ContaCorrente(joao, 1002)
     contaJoao.titular.nome = "João"
 //    var contaMaria = contaJoao //Aqui tem atribuição por referência
     var contaMaria = ContaPoupanca(Cliente(
-        "Maria",
-        "444.444.444-44",
-        9876
-    ), 1003)  //Aqui é criada uma nova instância de objeto
+        nome = "Maria",
+        cpf = "444.444.444-44",
+        senha = 9876
+    ), numero = 1003)  //Aqui é criada uma nova instância de objeto
     contaMaria.titular.nome = "Maria"
     contaJoao.titular.nome = "João"
 
