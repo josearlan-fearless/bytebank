@@ -1,12 +1,11 @@
 package br.com.alura.bytebank.modelo
 
-abstract class Conta(var titular: String, val numero: Int) {
+abstract class Conta(
+    var titular: Cliente,
+    val numero: Int
+) {
     var saldo = 0.0
         protected set
-
-//    constructor(titular: String, numero: Int, saldo: Double) : this(titular, numero){
-//        this.saldo = saldo
-//    } //construtor secundário, fazendo o overload de métodos, chamando o primário pelo this()
 
     fun deposita(valor: Double) {
         if (valor > 0)
