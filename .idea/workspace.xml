@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249dd60b-089e-49e9-839e-a08565b911ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaAutenticacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +39,19 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/br/com/alura/bytebank" />
@@ -66,6 +61,7 @@
       <recent name="br.com.alura.bytebank.modelo" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.alura.bytebank.modelo" />
       <recent name="modelo" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
