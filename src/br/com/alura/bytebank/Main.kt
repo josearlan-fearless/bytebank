@@ -1,5 +1,4 @@
 package br.com.alura.bytebank
-
 import br.com.alura.bytebank.modelo.*
 import br.com.alura.bytebank.teste.testaContasDiferentes
 
@@ -19,10 +18,11 @@ fun main() {
     val sistemaInterno = SistemaInterno()
     sistemaInterno.entra(fran, 4321)
 
+
     val alex = Cliente(nome = "Alex", cpf = "111.111.111-11", senha = 1234)
     val contaPoupanca = ContaPoupanca(titular = alex, 1001)
     val contaCorrente = ContaCorrente(titular = alex, numero = 1002)
 
     testaContasDiferentes()
-    println("Total de contas: ${totalContas}")
+    println("Total de contas: ${Conta.total}")
 }
